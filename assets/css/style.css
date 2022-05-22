@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   color: #fff;
-  background: #0563bb;
+  background: #101820FF;
 }
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
   color: #fff;
@@ -274,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #0563bb;
+  color: #45505b;
   letter-spacing: 1px;
 }
 #hero .social-links {
@@ -343,7 +343,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #45505b;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -374,7 +374,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #0563bb;
+  color: #45505b;
   line-height: 0;
 }
 .about .content p:last-child {
@@ -436,20 +436,20 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  color: #101820FF;
 }
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
 .skills .progress-bar-wrap {
-  background: #000000;
+  background: #45505b;
 }
 .skills .progress-bar {
   width: 1px;
-  height: 20px;
+  height: 25px;
   transition: 0.9s;
-  background-color: #0563bb;
+  background-color: #FEE715FF;
 }
 
 /*--------------------------------------------------------------
@@ -465,7 +465,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #45505b;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -474,7 +474,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #45505b;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -502,8 +502,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #0563bb;
+  background: #45505b;
+  border: 2px solid #45505b;
 }
 
 /*--------------------------------------------------------------
@@ -544,7 +544,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+  /* background: rgba(69, 80, 91, 0.8); */
 }
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -1047,4 +1047,10 @@ section {
 }
 #footer .credits {
   font-size: 13px;
+}
+
+.img-fluid {
+  border-radius: 15px;
+  padding: 2px;
+  background: #45505b;
 }
